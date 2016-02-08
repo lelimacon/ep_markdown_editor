@@ -1,0 +1,17 @@
+{
+  "parts": [
+    {
+      "name": "main",
+      "client_hooks": {
+        "aceInitialized": "ep_markdown_editor/static/js/index",
+        "postAceInit": "ep_markdown_editor/static/js/index",
+        "collectContentPost": "ep_markdown_editor/static/js/index",
+        "acePostWriteDomLineHTML": "ep_markdown_editor/static/js/index"
+      },
+      "hooks": {
+        "eejsBlock_editbarMenuLeft": "ep_markdown_editor/index",
+        "eejsBlock_afterEditbar": "ep_markdown_editor/index"
+      }
+    }
+  ]
+}

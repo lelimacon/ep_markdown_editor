@@ -1,0 +1,15 @@
+{
+  "description": "Turn etherpad-lite into a markdown editor",
+  "name": "ep_markdown_editor",
+  "version": "0.0.1",
+  "author": {
+    "name": "lelimacon",
+    "email": "lelimacon@users.noreply.github.com"
+  },
+  "dependencies": {
+    "ep_split_pane": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
